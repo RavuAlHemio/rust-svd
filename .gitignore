@@ -1,0 +1,4 @@
+target/
+
+# these are libraries, not applications
+Cargo.lock

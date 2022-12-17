@@ -1,0 +1,18 @@
+[package]
+name = "atsaml21e18b"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Device crate for the Microchip ATSAML21E18B, generated from its SVD file."
+repository = "https://github.com/RavuAlHemio/rust-svd/tree/main/atsaml21g18b"
+readme = "README.md"
+keywords = ["atmel", "microchip", "sam", "saml21", "svd", "svd2rust"]
+
+[features]
+rt = ["cortex-m-rt/device"]
+
+[dependencies]
+cortex-m = { version = "0.7" }
+cortex-m-rt = { version = "0.7", optional = true }
+critical-section = { version = "1.0", optional = true }
+vcell = { version = "0.1" }
