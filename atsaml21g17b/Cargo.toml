@@ -1,12 +1,12 @@
 [package]
 name = "atsaml21g17b"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "Apache-2.0"
 description = "Device crate for the Microchip ATSAML21G17B, generated from its SVD file."
 repository = "https://github.com/RavuAlHemio/rust-svd/tree/main/atsaml21g18b"
 readme = "README.md"
-keywords = ["atmel", "microchip", "sam", "saml21", "svd", "svd2rust"]
+keywords = ["microchip", "sam", "saml21", "svd", "svd2rust"]
 
 [features]
 rt = ["cortex-m-rt/device"]
